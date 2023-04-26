@@ -16,10 +16,10 @@
         }
         #google {
            position: relative;
-             border-top: 50px solid #EA4335;
-              border-right: 50px solid #4285F4;
-              border-bottom: 50px solid #34A853;
-            border-left: 50px solid #FBBC05;
+             border-top: 70px solid #EA4335;
+              border-right: 70px solid #4285F4;
+              border-bottom: 70px solid #34A853;
+            border-left: 70px solid #FBBC05;
                border-radius: 50%;
                
           
@@ -27,7 +27,7 @@
           #googly {
             position: absolute;
                  width: 150px;
-                 height: 50px;
+                 height: 70px;
                  background-color:#4285F4;
                  top: 25%;
                  left: 115px;
@@ -39,18 +39,29 @@
 	border-top: 80px solid transparent;
 	/* border-right: 50px solid #555; */
 	border-bottom: 0px solid transparent;
-  border-left: 100px  solid rgb(171, 74, 74) ;
+  border-left: 150px  solid rgb(255, 255, 255) ;
   top: -5px;
   left: 210px;
 }
 
+div.line{
+   width: 200px;
+   height: 10px;
+   transform: rotate(-45deg);
+   transform-origin: bottom left;
+   border-top: 70px solid rgb(255, 255, 255);
+   position: absolute;
+   bottom: 130px;
+   left: 229px;
+   box-sizing: border-box;
+}
 
     </style>
 </head>
 <body>
     <div id="google">
       <div id="googly"></div>
-      
+      <div class="line"></div>
       <span class="triangle-left"></span>
       
     </div>
